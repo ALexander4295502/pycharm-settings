@@ -1,4 +1,9 @@
 <keymap version="1" name="Mac OS X copy" parent="Mac OS X">
+  <action id="ActivateRunToolWindow" />
+  <action id="ActivateTerminalToolWindow">
+    <keyboard-shortcut first-keystroke="alt f12" />
+    <keyboard-shortcut first-keystroke="meta 4" />
+  </action>
   <action id="FindInPath">
     <keyboard-shortcut first-keystroke="shift ctrl f" />
     <keyboard-shortcut first-keystroke="shift meta f" />
